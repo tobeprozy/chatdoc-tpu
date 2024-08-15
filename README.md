@@ -81,7 +81,7 @@ pip3 install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 | Model           | Cmd                                  |
 | :-------------- | :------------------------------------|
 | ChatGLM3-6B     | ./run.sh --model chatglm3 --dev_id 0 |
-| Qwen-7B         | ./run.sh --model qwen --dev_id 0     |
+| Qwen-7B         | ./run.sh --model qwen7b --dev_id 0     |
 
 ```bash
 usage: ./run.sh [--model MODEL]  [--dev_id DEV_ID] [--server_address SERVER_ADDRESS] [--server_port SERVER_PORT]
